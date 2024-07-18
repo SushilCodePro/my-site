@@ -3,7 +3,7 @@ import { useState } from "react";
 function Home() {
 
     const [task, setTask] = useState('');
-    const [data, setData] = useState([]);
+    const [data, setData] = useState(['Wake Up at 5am']);
     // const data=[];
 
     const handleChange = (e) => {

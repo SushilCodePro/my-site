@@ -26,7 +26,7 @@ function Navbar() {
                         <Link to={`/`} className="text-white hover:text-blue-400">Home</Link>
                     </li>
                     <li>
-                        <Link to={`/addtask`} className="text-white hover:text-blue-400">AddTask</Link>
+                        <Link to={`/addtask`} className="text-white hover:text-blue-400">Projects</Link>
                     </li>
                     <li>
                         <Link to={`#`} className="text-white hover:text-blue-400">Contact</Link>
