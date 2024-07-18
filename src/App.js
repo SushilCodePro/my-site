@@ -1,9 +1,18 @@
-
+import Home from "./components/Home";
+import AddTask from "./components/AddTask";
+import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="bg-green-300">
-      <h1>Hi ReactJs</h1>
+    <div className="container mx-auto">
+      <Router>
+        <Navbar/>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/addtask" element={<AddTask />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
